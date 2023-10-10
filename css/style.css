@@ -184,7 +184,52 @@ border-radius: 30px;
 
 /*css del footer*/
 
+
+
 .color-footer {
   background-color: rgb(35, 39, 42);
-  height: 500px;
+   padding: 3rem 0;
+  color: white;
+}
+
+.flex-footer{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+   
+    
+
+}
+
+
+
+.color-footer section{
+    padding: 2rem 0 1rem 0;
+}
+
+.color-footer p{
+    padding: 0.25rem;
+}
+.color-footer h2{
+    color: rgb(114, 137, 218);
+
+
+
+}
+
+.color-footer p:first-child{
+    color:rgb(114, 137, 218)
+}
+
+.flex-logo-login{
+display: flex;
+justify-content: space-between;
+padding-top: 1rem;
+}
+
+.flex-logo-login>button{
+    background-color: rgb(142, 161, 225);
+    padding: 0.5rem;
+    border-radius: 10px;
 }
