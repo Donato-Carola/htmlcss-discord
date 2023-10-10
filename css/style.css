@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-body{
-    font-family: 'Cabin', sans-serif;
+body {
+  font-family: "Cabin", sans-serif;
 }
 
 /*css con le classi da riutilizzare*/
@@ -47,38 +47,33 @@ ul {
   color: white;
 }
 
-.login{
-    border-radius: 30px;
-    background-color: white;
-    padding: 0.5rem;
-
+.login {
+  border-radius: 30px;
+  background-color: white;
+  padding: 0.5rem;
 }
 
 /*css per l'ultimo figlio dell'header*/
 
 header section:last-child {
   background-image: url(../img/jumbo.png);
-  
+
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 /*sezione per il titolo*/
 
-.flex-title>h1{
-    padding: 8rem 0 2rem 0;
-    color: white;
-    font-size: 50px;
+.flex-title > h1 {
+  padding: 8rem 0 2rem 0;
+  color: white;
+  font-size: 50px;
 }
 
-.flex-title>p{
-    padding: 0 0 1.5rem 0;
-    color: white;
+.flex-title > p {
+  padding: 0 0 1.5rem 0;
+  color: white;
 }
-
-
-
-
 
 .flex-title {
   display: flex;
@@ -98,18 +93,17 @@ header section:last-child {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
 }
 
-.style-button>button {
-       border-radius: 30px;
-       padding: 1rem ;
-       margin-left: 1rem;
+.style-button > button {
+  border-radius: 30px;
+  padding: 1rem;
+  margin-left: 1rem;
 }
 
-.style-button button:last-child{
-    background-color: rgb(33, 36, 36);
-    color: white;
+.style-button button:last-child {
+  background-color: rgb(33, 36, 36);
+  color: white;
 }
 
 /*sezione dove spiega come funzionano i server Discord*/
@@ -119,15 +113,18 @@ header section:last-child {
 }
 
 .box-left {
-  height: 300px;
   width: 60%;
-  border: 3px dashed black;
 }
 
 .box-right {
-  height: 300px;
   width: 40%;
-  border: 3px dashed black;
+  font-size: 35px;
+  padding: 3rem 2rem 0 2rem;
+}
+
+.flex-info {
+  display: flex;
+  flex-direction: column;
 }
 
 /*css dove parla dei canali e degli amici in collegamento*/
@@ -144,24 +141,46 @@ header section:last-child {
   background-color: rgb(246, 246, 246);
 }
 
-.flex-box-use {
+.flex-dispositivi {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.dispositivi {
-  background-color: blue;
-  height: 100px;
+.box-title {
+  width: 80%;
+  text-align: center;
 }
 
-.img-amici {
-  background-color: red;
-  height: 200px;
+.box-title > h1 {
+  font-size: 50px;
+  margin-bottom: 1rem;
 }
 
-.start-use {
-  background-color: aqua;
-  height: 70px;
+.box-title > p {
+  font-size: 20px;
 }
+
+.box-img {
+  width: 100%;
+}
+
+.button-final{
+background-color:rgb(142, 161, 225) ;
+border-radius: 30px;
+  padding: 1rem;
+  margin-left: 1rem;
+  
+}
+
+.start-use{
+    padding: 0 1rem 2rem 1rem;
+}
+
+
+
+
 
 /*css del footer*/
 
