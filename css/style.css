@@ -4,4 +4,39 @@
     box-sizing: border-box;
 }
 
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    padding: 0 1.5rem;
+}
+
+
+.box-nav{
+   background-color:rgb(49, 97, 224) ;
+   justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+
+
+}
+
+.start-img{
+    height: 300px;
+    
+}
+
+header section:last-child{
+    background-image: url(../img/jumbo.png);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
 
