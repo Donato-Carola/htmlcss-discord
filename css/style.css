@@ -1,158 +1,171 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+body{
+    font-family: 'Cabin', sans-serif;
 }
 
+/*css con le classi da riutilizzare*/
 
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.posizionamento{
-    width: 70%;
-    height: 70%;
-    
+.padding-top-bottom {
+  padding: 3rem 0;
+}
 
+.posizionamento {
+  width: 70%;
 }
 
 /*Css per sezione navbar*/
 
-.logo>img{
-   padding: 0.5rem 0 0 0;
+.logo > img {
+  padding: 0.5rem 0 0 0;
 }
 
-li{
-    padding: 0 1.5rem;
+li {
+  padding: 0 1.5rem;
 }
 
-.navigazione{
-    background-color:rgb(37, 94, 233);
-     
+.navigazione {
+  background-color: rgb(37, 94, 233);
 }
 
-.box-nav{
-    justify-content: space-between;
+.box-nav {
+  justify-content: space-between;
 }
 
+ul {
+  list-style: none;
+  color: white;
+}
 
-
-ul{
-    list-style: none;
-    color: white;
-
+.login{
+    border-radius: 30px;
+    background-color: white;
+    padding: 0.5rem;
 
 }
 
 /*css per l'ultimo figlio dell'header*/
 
-header section:last-child{
-    background-image: url(../img/jumbo.png);
-    height: 625px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    
+header section:last-child {
+  background-image: url(../img/jumbo.png);
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*sezione per il titolo*/
+
+.flex-title>h1{
+    padding: 8rem 0 2rem 0;
+    color: white;
+    font-size: 50px;
+}
+
+.flex-title>p{
+    padding: 0 0 1.5rem 0;
+    color: white;
+}
+
+
+
+
+
+.flex-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.position-title {
+  width: 40%;
+  text-align: center;
+  padding: 0 0 8rem 0;
+}
+
+/*css bottoni nel titolo*/
+
+.flex-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.style-button>button {
+       border-radius: 30px;
+       padding: 1rem ;
+       margin-left: 1rem;
+}
+
+.style-button button:last-child{
+    background-color: rgb(33, 36, 36);
+    color: white;
 }
 
 /*sezione dove spiega come funzionano i server Discord*/
 
-.section-server{
-    background-color: rgb(255, 255, 255);
-    height: 625px;
-
+.section-server {
+  background-color: rgb(255, 255, 255);
 }
 
-.box-left{
-    
-     height: 300px;
-     width: 60%;
-     border: 3px dashed black;
+.box-left {
+  height: 300px;
+  width: 60%;
+  border: 3px dashed black;
 }
 
-.box-right{
-    
-    height: 300px;
-    width: 40%;
-    border: 3px dashed black;
+.box-right {
+  height: 300px;
+  width: 40%;
+  border: 3px dashed black;
 }
 
 /*css dove parla dei canali e degli amici in collegamento*/
 
-.section-amici{
-    background-color: rgb(246, 246, 246);
-    height: 625px;
-
+.section-amici {
+  background-color: rgb(246, 246, 246);
 }
 
 /*css dove parla di come costruire una community*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*css dove parla dei dispositivi da usare ecc..*/
 
-.section-dispositivi{
-    background-color: rgb(246, 246, 246);
-    padding: 3rem 0;
+.section-dispositivi {
+  background-color: rgb(246, 246, 246);
 }
 
-.flex-box-use{
-    flex-direction: column;
-    
+.flex-box-use {
+  flex-direction: column;
 }
 
-.dispositivi{
-    background-color: blue;
-    height: 100px;
+.dispositivi {
+  background-color: blue;
+  height: 100px;
 }
 
-.img-amici{
-    background-color: red;
-    height: 200px;
+.img-amici {
+  background-color: red;
+  height: 200px;
 }
 
-.start-use{
-    background-color: aqua;
-    height: 70px;
+.start-use {
+  background-color: aqua;
+  height: 70px;
 }
-
-
 
 /*css del footer*/
 
-.color-footer{
-    background-color: rgb(35, 39, 42) ;
-    height: 500px;
+.color-footer {
+  background-color: rgb(35, 39, 42);
+  height: 500px;
 }
-
-
-
-
-
-
