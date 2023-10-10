@@ -24,6 +24,9 @@ body {
   width: 70%;
 }
 
+i{
+    padding-right:6px ;
+}
 /*Css per sezione navbar*/
 
 .logo > img {
@@ -131,6 +134,7 @@ header section:last-child {
 
 .section-amici {
   background-color: rgb(246, 246, 246);
+ 
 }
 
 /*css dove parla di come costruire una community*/
@@ -232,4 +236,14 @@ padding-top: 1rem;
     background-color: rgb(142, 161, 225);
     padding: 0.5rem;
     border-radius: 10px;
+}
+
+.flex-flag{
+    display: flex;
+    align-items: center;
+}
+.flex-flag>img{
+    width: 10%;
+    height: 10%;
+
 }
